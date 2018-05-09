@@ -1,0 +1,13 @@
+:root {
+  --fs: 18px;
+  --size: 6rem;
+  --bg: darkred;
+}
+body {
+  font-family: 'Roboto';
+  color: #fff;
+  background-color: #161616;
+}
+::selection {
+  background-color: var(--bg);
+}
